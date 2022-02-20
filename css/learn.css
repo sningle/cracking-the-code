@@ -1,0 +1,50 @@
+.text-box {
+  padding-left: 40px;
+}
+
+.text-box-lang {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  padding-left: 15px;
+  font-size: 65px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 45px;
+  padding-right: 25px;
+  color: #802392;
+}
+
+p {
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+.career-smaller {
+  font-size: 25px;
+}
+
+.body-text {
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.media {
+  padding-top: 10px;
+}
+
+.color-block-learn {
+  background-color: #995FA3;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
