@@ -1,30 +1,20 @@
-# Hello website!
+## Inspiration
+One of the most common topics around women in tech is the lack of representation as well as the increasing number of women leaving tech to pursue other ventures. Our team wants to empower young women in their Computer Science journey and provide no-judgment resources for young girls who may feel isolated or unwelcome in male-dominated tech spaces.
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
+## What it does
+Cracking the Code combines informative articles, educational resources, live events and scholarship opportunities, and advice from women in tech to create a one-stop shop for girls just beginning to learn about Computer Science. Our website is both accessible for young girls in the reading level as well as practical for getting started with choosing a programming language or finding networking events.
 
-## What's in this project?
+## How we built it
+Our team utilized Glitch to collaborate on HTML, CSS, and JavaScript code for our project. We also used copyright free assets and some of our own team-created icons.
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+## Challenges we ran into
+Many of our members were new to web development and had never built anything using HTML and CSS before. It was difficult figuring out how to get started, and how the HTML and CSS portions are meant to interact. One of the most frustrating parts was not being able to align elements the way we wanted them to.
 
-← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!
+## Accomplishments that we're proud of
+Seeing as most of our members had never developed a website before this hackathon, we’re very proud of the overall design and functionality of Cracking the Code. Our website is both easy to use and aesthetically pleasing with lots of room to expand with new resources over time.
 
-← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.
+## What we learned
+For some team members, this project provided an introduction to the use of HTML and CSS and allowed them to develop basic web design skills, including creating divs and classes. For the more experienced team members, this project was a valuable exercise in leadership and allowed for the honing of an already extant skill set through the refinement of group-produced code. 
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.
-
-Open each file and check out the comments (in gray) for more info.
-
-## Try this next 🏗️
-
-Take a look in `TODO.md` for next steps you can try out in your new site!
-
-___Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!___
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+## What's next for Cracking the Code
+One idea for expansion we would like to implement is the inclusion of team-written practice sections for each language as well as options for more languages in the future. Additionally, we would like to add more “Learn” articles and expand on previous articles, specifically to allow for skill-based filtering of career opportunities so users can figure out what career best fits their interests. Other ideas include making the website responsive and more accessible, as well as playing around with the CSS aspects of it.
