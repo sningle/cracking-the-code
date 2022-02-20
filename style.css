@@ -1,0 +1,153 @@
+body {
+  background-color: #FCEFFE;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  float: center;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #802392;
+  float: center;
+  text-align: center;
+  margin:0 auto;
+  
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #802392;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto; /* Important for vertical align on mobile phones */
+  display:inline;
+  padding-top:25px;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #995FA3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a  background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+  cursor: pointer;
+  color: #A0B9C6;
+}
+
+.non-drop {
+  padding-top:25px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+/* make non-drop down classes change color */
+.non-drop:hover {
+  color: #A0B9C6;
+}
+
+/* Add a  background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* background-color: red; */
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #B57FBE;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown_menu-6 {
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+
+.color-block {
+  background-color: #995FA3;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
+
+
+
+/* debating on whether it looks better on the left or trying to center it (wont be perfectly centered) */
+.leftmost {
+  /* padding-left: 30%; */
+}
+
+.pic {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #808080;
+}

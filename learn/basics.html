@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link id="favicon" rel="icon" href="https://cdn.glitch.global/aa918e4a-0948-48af-8894-cb1b859f846b/favicon.ico?v=1645366703494" />
+
+    <!-- font code begin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font code end -->
+
+    <title>Coding Basics</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="../css/learn.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR BEGINNING -->
+
+    <div class="navbar">
+      <a class="pic" href="../index.html"
+        ><img
+          src="https://cdn.glitch.global/aa918e4a-0948-48af-8894-cb1b859f846b/cracking%20the%20code%20logo.png?v=1645308342432"
+          width="50"
+          height="50"
+      /></a>
+      <div class="dropdown leftmost">
+        <button class="dropbtn">LEARN</button>
+        <div class="dropdown-content dropdown_menu-6">
+          <a href="./basics.html">Coding Basics</a>
+          <a href="./lang.html">Choosing a Language</a>
+          <a href="./troubleshooting.html">Troubleshooting</a>
+          <a href="./careers.html">Career Paths</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">PRACTICE</button>
+        <div class="dropdown-content dropdown_menu-6">
+          <a href="../practice/python.html">Python</a>
+          <a href="../practice/js.html">JavaScript</a>
+          <a href="../practice/html.html">HTML</a>
+          <a href="../practice/css.html">CSS</a>
+          <a href="../practice/java.html">Java</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">OPPORTUNITIES</button>
+        <div class="dropdown-content dropdown_menu-6">
+          <a href="../opportunities/camp.html">Camps</a>
+          <a href="../opportunities/hackathons.html">Hackathons</a>
+          <a href="../opportunities/scholarships.html">Scholarships</a>
+        </div>
+      </div>
+
+      <li><a href="../advice.html" class="non-drop">ADVICE</a></li>
+      <li><a href="../contact.html" class="non-drop">CONTACT</a></li>
+    </div>
+
+    <!-- NAVBAR END -->
+
+    <div class="color-block">
+      <img
+        src="https://cdn.glitch.global/aa918e4a-0948-48af-8894-cb1b859f846b/photo-1545239351-1141bd82e8a6.webp?v=1645299203022"
+        class="image_specs"
+        width="20%"
+        height="20%"
+      />
+      <div class="text-box">
+        <h1>CODING BASICS</h1>
+        <p>
+          Trying to learn some coding basics but not sure where to start? We've
+          got you covered. Here's a brief rundown of a few different Computer
+          Science concepts used across many languages.
+        </p>
+      </div>
+    </div>
+
+    <br>
+    
+    <h2>Variables and Constants</h2>
+
+    <p class="body-text">
+      Variables and constants in programming are a lot like variables and
+      constants in math; that is, a variable is a value that can change based on
+      conditions within a program and constants are values that should not
+      change regardless of the conditions in a program. Variables are used to
+      store values which can be used for performing operations or otherwise
+      manipulating data. A variable is essentially a "pointer" where the name
+      (say, x, for example) "points" to a value (for example, the integer 1).
+      Variables are different from constants in that, as the same suggests, they
+      vary. This means that just because x equals 1 now, doesn't mean it will
+      equal 1 later. In fact, the reason variables are often used is because
+      their values will change as the conditions of the program change, allowing
+      for new data or information to arise.
+    </p>
+
+    <br />
+
+    <h2>Data Types</h2>
+
+    <p class="body-text">
+      A data type is an attribute of data which specifies how the data is
+      intedended to be used. There are two main categories of data types: value
+      types and reference types. Value types include integers, floats (imprecise
+      decimal), doubles (more precise decimal), booleans (true or false value),
+      and other types that merely store a value. Reference types, on the other
+      hand, reference data that is stored elsewhere. What exactly is being
+      referenced can get a bit complicated, so let's keep it simple: anything
+      that's not simply storing a value is a reference type. This might include
+      a string like "hello world" or an array (which we'll talk a bit more about
+      later). Essentially, these data types define more complex structures which
+      we can use to store more complex data. This brings us to data structures.
+    </p>
+
+    <br />
+
+    <h2>Data Structures</h2>
+
+    <p class="body-text">
+      Data structures offer a specialized method of organizing and storing data
+      in a way that allows us to perform operations on said data more easily.
+      Some common data structures are arrays, linked lists, and hashmaps.
+    </p>
+    <p class="body-text">
+      An array is a collection of items stored one after the other at a
+      particular location in memory. It allows you to store many items of the
+      same type together, such as test scores or race times. The items in an
+      array need not be ordered, but each element will be identified by its
+      particular "index" or position within the array.
+    </p>
+    <p class="body-text">
+      A linked list is a linear data structure in which each data point or
+      "node" points to the next node. Each node contains both its own data and a
+      reference to the next node, or to null if there is no next node. Linked
+      lists can be used to represent data that "chains" or data in which it is
+      important to store both the current value and a reference to the next
+      value. This concept can be applied to other, more complex data structures
+      as well.
+    </p>
+    <p class="body-text">
+      Hashing is a technique used for mapping keys and values into a hash table
+      by using a hash function. Thus, a hash map is a data structure that maps
+      unique keys to values as a way to group data. HashMaps or Maps are
+      sometimes considered more versatile than arrays, as they are not
+      inherently constrained by order and any value can be recalled by its key
+      without knowing the index of that value. Alternatively, HashMaps tend to
+      take up more "overhead" or space in memory, as they are not always as
+      efficient as other data structures.
+    </p>
+    
+    <br>
+
+    <h2>Conditionals</h2>
+
+    <p class="body-text">
+      Conditionals, also referred to as "if-else" statements, are programming
+      commands used for handling decisions. The explanation for how this works
+      follows the name; "If something is true, then do this. If not, do
+      something else." Conditionals are used with boolean or true and false
+      values to evaluate data and initiate a specific process based on the
+      characteristics of that data. For example, I might say "If you made above
+      a 60% on your test, say 'You passed :)' else say, 'You failed :('". The
+      idea behind the conditional is we can parse through various cases or
+      situations in our code without having to write a different function for
+      every situation and make decisions on which should be called by ourself.
+    </p>
+
+    <br />
+
+    <h2>Loops</h2>
+
+    <p class="body-text">
+      A loop is a structure that repeats through a sequence of instructions
+      until a particular condition is met. A common method of looping is a
+      "while" loop, which essentially says "while a condition is happening, loop
+      over this section of code." This allows for a set of code to be repeated
+      until some state of the program changes. For example, I might say "while
+      my-favorite-team = winning, repeat 'go team!'" In this case, I would only
+      stop repeating "go team" when my team started losing. Alternatively, if I
+      said "while the sky is blue, spin in a circle," you'd be spinning forever.
+      This is known as an infinite loop, and is generally avoided in programming
+      as it has no termination state. Another type of loop is a "for" loop which
+      iterates over a specific set of data until each datapoint is visited. For
+      example, I could say "for each person reading this, say 'stay awesome!'"
+      and "stay awesome" would repeat until it was said for every person reading
+      this. Loops can be used for a variety of purposes and are a vital part of
+      creating efficient and effective algorithms.
+    </p>
+
+    <br />
+
+    <h2>Functions</h2>
+
+    <p class="body-text">
+      Functions are self-contained sections of code that aim to accomplish a
+      particular task. Most functions accept some data as a parameter and return
+      something as a result. Functions can be "called" from the inside of other
+      functions, meaning you could use a function many times with many sets of
+      data and continue to receive new data. You might think of a programming
+      function like a math function; in math, an x value goes in, and a y value
+      comes out. Likewise, with a programming function, a parameter goes in, and
+      a return statement comes out.
+    </p>
+    <footer>© 2022 Cracking the Code: A Girls' Guide to Breaking into Computer Science</footer>
+  </body>
+</html>

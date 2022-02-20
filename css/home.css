@@ -1,0 +1,107 @@
+.text-box{
+  width: 50%;
+  float: left;
+  padding: 53px;  
+  margin-left: 20px;
+}
+
+
+.home{
+    height:700px;
+    display:flex;
+    background:url(https://cdn.glitch.global/aa918e4a-0948-48af-8894-cb1b859f846b/mark-sivewright-xMjQYjGGJgk-unsplash.jpg?v=1645301577777) no-repeat;
+    background-size:cover; 
+    
+}
+.home .content .text-box {
+  width: 50%;
+  float: center;
+  padding: 100px;  
+  background-color: rgb(255,255,255,0.7);
+  margin-top:100px;
+  margin-left: 300px;
+}
+.home .content h3{
+    display:flex;
+    font-size: 60px;
+    align-items:center;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+    color:#301934; 
+}
+
+.home .content p{
+    align-items:center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    line-height: 1.8;
+    text-align:center;
+    padding:2px ;
+    color:#630330;
+}
+.mission{
+  height:400px;
+  display:flex;
+  background-color:#702963;
+  
+  
+}
+.mission .c{
+  height:700px;
+  display:flex;
+}
+
+.mission .c h3{
+  
+  display:flex;
+  font-size:40px;
+  float:left;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif; 
+  text-transform: uppercase;
+  color:white; 
+  
+}
+.mission .c p{
+    
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    float:left;
+    text-align:left;
+    
+    color:white;
+}
+
+
+
+.new-stat {
+  padding: 20px;
+}
+
+.inline-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.caption {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-col {
+  justify-content: center;
+  text-align: center;
+}
+
+
+.image_specs {
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.color-block {
+  justify-content: center;
+}
